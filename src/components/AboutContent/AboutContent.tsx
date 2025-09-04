@@ -35,7 +35,7 @@ export default function AboutContent() {
             label="Ort"
             value="Moosburg an der Isar, Deutschland"
           />
-          <InfoItem icon={<FaBirthdayCake />} label="Alter" value="27" />
+          <InfoItem icon={<FaBirthdayCake />} label="Alter" value="28" />
           <InfoItem icon={<FaFlag />} label="Nationalität" value="Ukrainisch" />
           <InfoItem
             icon={<FaGraduationCap />}
