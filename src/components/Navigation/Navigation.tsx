@@ -40,7 +40,7 @@ export default function Navigation() {
     ))}
 
     <a
-      href="/Lebenslauf-Stanislav-Vidulin"
+      href="/Lebenslauf-Stanislav-Vidulin.pdf"
       target="_blank"
       rel="noopener noreferrer"
       className="bg-gradient-to-r from-cyan-400 to-green-400 text-black font-semibold px-5 py-2 rounded-full shadow-lg hover:opacity-90 transition-opacity duration-300 whitespace-nowrap"
