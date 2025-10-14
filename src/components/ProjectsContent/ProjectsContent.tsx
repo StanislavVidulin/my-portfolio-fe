@@ -2,7 +2,7 @@ import { FaGithub } from "react-icons/fa";
 
 const projects = [
   {
-    title: "Lernprojekt 1: Shop Basic",
+    title: "Projekt 1: Shop Basic",
     description: `Im Rahmen meiner Weiterbildung habe ich diesen Online-Shop in Java entwickelt, um ein tiefes Verständnis für die verschiedenen Schichten einer Anwendung zu erlangen. 
 Das Projekt fokussiert sich auf die Clean Architecture und zeigt, wie Präsentations-, Geschäftslogik- und Datenschichten zusammenarbeiten. 
 Ziel war es, die Prinzipien der sauberen Architektur und den Schichtaufbau praxisnah zu verstehen und umzusetzen.`,
@@ -10,7 +10,7 @@ Ziel war es, die Prinzipien der sauberen Architektur und den Schichtaufbau praxi
     github: "https://github.com/StanislavVidulin/shop_basic",
   },
   {
-    title: "Lernprojekt 2: Weather App",
+    title: "Projekt 2: Weather App",
     description: `In diesem Projekt habe ich eine Wetteranwendung entwickelt,
 die es ermöglicht, aktuelle Wetterdaten für eine beliebige Stadt abzurufen.
 Die App kommuniziert mit der OpenWeatherMap-API, sendet HTTP-Anfragen und verarbeitet die erhaltenen JSON-Daten.`,
@@ -24,7 +24,7 @@ Die App kommuniziert mit der OpenWeatherMap-API, sendet HTTP-Anfragen und verarb
     github: "https://github.com/StanislavVidulin/20_Weather_App_03_03_2025",
   },
   {
-    title: "Lernprojekt 3: User Project (Frontend)",
+    title: "Projekt 3: User Project (Frontend)",
     description: `Entwicklung einer mehrseitigen React-Anwendung mit Login-Formular, Anzeige der Benutzerdaten und Historie aller abgefragten Nutzer. 
 Validierte Eingabefelder, API-Anfragen mit Ladeanzeige und Fehlerhandling. Nutzerhistorie mit Einzel- und Gesamtlöschfunktion.`,
     technologies: [
@@ -37,7 +37,7 @@ Validierte Eingabefelder, API-Anfragen mit Ladeanzeige und Fehlerhandling. Nutze
     github: "https://github.com/StanislavVidulin/project",
   },
   {
-    title: "Lernprojekt 4: Forum Service",
+    title: "Projekt 4: Forum Service",
     description: `Backend-Service für ein Forum, entwickelt mit Spring Boot und Java 17. 
 Implementierung von REST-APIs zur Verwaltung von Beiträgen und Kommentaren. Verwendung von Spring-Anmerkungen (Annotations) für Dependency Injection und Mapping.
 Datenbankanbindung über MongoDB. Zur Objektabbildung (DTO zu Entity) wurde ModelMapper eingesetzt. Maven wurde als Build-Management-Tool verwendet. 
@@ -55,7 +55,7 @@ API-Tests erfolgten mit Postman.`,
     github: "https://github.com/StanislavVidulin/forum-service",
   },
   {
-    title: "Lernprojekt 5: Person Service",
+    title: "Projekt 5: Person Service",
     description: `Backend-Service zur Verwaltung von Personen mit Spring Boot und Java 17. 
 Implementierung von CRUD-REST-APIs, Datenpersistenz mit Spring Data JPA und In-Memory H2-Datenbank. 
 Verwendung von Lombok zur Codevereinfachung und ModelMapper für DTO-Mapping.`,
@@ -71,7 +71,7 @@ Verwendung von Lombok zur Codevereinfachung und ModelMapper für DTO-Mapping.`,
     github: "https://github.com/StanislavVidulin/person-service",
   },
   {
-    title: "Lernprojekt 6: Book Service",
+    title: "Projekt 6: Book Service",
     description: `Backend-Service zur Verwaltung von Büchern, Autoren und Verlagen mit Spring Boot und Java 17. 
 Modellierung komplexer Beziehungen: Many-to-Many zwischen Büchern und Autoren sowie Many-to-One von Büchern zu Verlagen. 
 Persistenz über Spring Data JPA mit MySQL-Datenbank. Verwendung von Lombok zur Codevereinfachung und ModelMapper für DTO-Mapping.`,
@@ -87,7 +87,7 @@ Persistenz über Spring Data JPA mit MySQL-Datenbank. Verwendung von Lombok zur 
     github: "https://github.com/StanislavVidulin/book-service",
   },
   {
-    title: "Lernprojekt 7: Task Tracker Backend",
+    title: "Projekt 7: Task Tracker Backend",
     description: `Backend-Service zur Verwaltung von Aufgaben, entwickelt im Rahmen meines Praktikums bei Upteam GmbH mit Spring Boot und Java 17. 
 Implementierung von RESTful APIs mit Sicherheitsfunktionen durch Spring Security und JWT. 
 Nutzung von Spring Data JPA für Persistenz mit MySQL-Datenbank. Integration von E-Mail-Versand über Spring Mail. 
@@ -107,7 +107,7 @@ API-Dokumentation mit Swagger.`,
     github: "https://github.com/StanislavVidulin/task-tracker-be",
   },
   {
-    title: "Lernprojekt 8: Task Tracker Frontend",
+    title: "Projekt 8: Task Tracker Frontend",
     description: `Frontend-Anwendung zur Verwaltung von Aufgaben, entwickelt im Rahmen meines Praktikums bei Upteam GmbH mit React, TypeScript und Tailwind CSS. 
 Umsetzung benutzerfreundlicher, responsiver Benutzeroberflächen mit React Hooks, Formik für Formularvalidierung sowie Redux Toolkit zur Zustandsverwaltung. 
 Integration von API-Anfragen mittels Axios und Navigation mit React Router.`,
@@ -123,7 +123,7 @@ Integration von API-Anfragen mittels Axios und Navigation mit React Router.`,
     github: "https://github.com/StanislavVidulin/task-tracker-fe",
   },
   {
-    title: "Lernprojekt 9: Persönliche Portfolio-Website",
+    title: "Projekt 9: Persönliche Portfolio-Website",
     description: `Entwicklung meiner persönlichen Portfolio-Website zur Präsentation meiner Projekte und Fähigkeiten. 
 Das Projekt wurde eigenständig umgesetzt und fokussiert auf responsives Design und einfache Bedienbarkeit.`,
     technologies: [
