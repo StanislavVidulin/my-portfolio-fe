@@ -40,7 +40,7 @@ export default function HeroContent() {
   return (
     <section
       id="hero"
-      className="px-6 max-w-7xl mx-auto pt-16 pb-16 text-gray-100 font-poppins"
+      className="px-6 max-w-7xl mx-auto pt-16 pb-16 text-gray-100"
     >
       <div className="flex flex-col md:flex-row items-center justify-center gap-16">
         <div className="flex-1 text-center md:text-left md:pr-16 animate-fadeIn delay-200">
