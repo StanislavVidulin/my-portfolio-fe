@@ -12,7 +12,7 @@ export default function AboutContent() {
   return (
     <section
       id="about"
-      className="px-6 max-w-7xl mx-auto pt-8 pb-4 text-gray-100 font-poppins"
+      className="px-6 max-w-7xl mx-auto pt-8 pb-4 text-gray-100 "
     >
       <h2 className="text-5xl font-semibold mb-10 border-b border-white pb-4">
         Über mich

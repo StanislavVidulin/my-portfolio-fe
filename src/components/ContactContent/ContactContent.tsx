@@ -50,16 +50,16 @@ export default function ContactContent() {
   return (
     <section
       id="contact"
-      className="px-8 py-8 max-w-7xl mx-auto relative font-poppins"
+      className="px-8 py-8 max-w-7xl mx-auto relative"
     >
-      <h2 className="text-5xl font-bold mb-10 border-b-2 border-white pb-2">
+      <h2 className="text-5xl font-semibold mb-10 border-b border-white pb-4">
         Kontakt
       </h2>
 
       <div className="w-full h-96 rounded-md overflow-hidden shadow-lg mb-10">
         <iframe
           title="Google Map"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.528152597887!2d11.914547115681194!3d48.54513747926253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ddc5c8d3011f9%3A0x51c7c5b9a1e2af9d!2sMoosburg%20an%20der%20Isar!5e0!3m2!1sen!2sde!4v168XXXXXXX"
+          src="https://maps.google.com/maps?q=Herrnstraße+18,+85368+Moosburg+an+der+Isar,+Deutschland&hl=de&z=15&output=embed"
           width="100%"
           height="100%"
           style={{ border: 0 }}

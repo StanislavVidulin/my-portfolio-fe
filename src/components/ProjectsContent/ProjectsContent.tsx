@@ -143,9 +143,9 @@ export default function ProjectsContent() {
   return (
     <section
       id="projects"
-      className="px-6 max-w-7xl mx-auto py-2 pb-4 text-gray-100 font-poppins"
+      className="px-6 max-w-7xl mx-auto py-2 pb-4 text-gray-100"
     >
-      <h2 className="text-5xl font-semibold mb-10 border-b border-white-400 pb-4">
+      <h2 className="text-5xl font-semibold mb-10 border-b border-white pb-4">
         Projekte
       </h2>
       <div
