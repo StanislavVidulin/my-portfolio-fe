@@ -33,9 +33,10 @@ export default function Navigation() {
       <button
         key={id}
         onClick={() => scrollToSection(id)}
-        className="text-gray-300 hover:text-cyan-400 font-medium transition-colors duration-300 whitespace-nowrap"
+        className="relative text-gray-300 font-poppins transition-colors duration-300 whitespace-nowrap group hover:text-cyan-400"
       >
         {label}
+      <span className="absolute left-0 -bottom-0 h-0.5 w-full bg-current opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
       </button>
     ))}
 
