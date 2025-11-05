@@ -137,9 +137,24 @@ Das Projekt wurde eigenständig umgesetzt und fokussiert auf responsives Design 
     ],
     github: "https://github.com/StanislavVidulin/my-portfolio-fe",
   },
+  {
+    title: "Projekt 10: MunichQuiz",
+    description: `Interaktive Quiz-Webanwendung mit 10 Fragen über die Stadt München, inklusive Sprachumschaltung, animierten Übergängen und Ergebnisanzeige.`,
+    technologies: [
+      "React",
+      "React Router",
+      "TypeScript",
+      "Vite",
+      "Framer Motion",
+      "i18next",
+      "HTML",
+      "CSS Modules",
+    ],
+    github: "https://github.com/StanislavVidulin/munich-quiz",
+  },
 ];
 
-export default function ProjectsContent() {
+export default function Projects() {
   return (
     <section
       id="projects"
@@ -152,7 +167,8 @@ export default function ProjectsContent() {
         className="grid gap-10 justify-center 
                     grid-cols-1 
                     sm:grid-cols-2 
-                    lg:grid-cols-3"
+                    lg:grid-cols-3
+                    auto-rows-fr"
       >
         {projects.map(({ title, description, github, technologies }, idx) => (
           <div

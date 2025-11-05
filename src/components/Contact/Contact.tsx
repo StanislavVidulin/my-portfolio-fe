@@ -10,7 +10,7 @@ import emailjs from "@emailjs/browser";
 import Spinner from "src/components/Spinner/Spinner";
 import Notification from "../Notification/Notification";
 
-export default function ContactContent() {
+export default function Contact() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",

@@ -10,7 +10,7 @@ const technologies = {
     "Bootstrap",
     "Tailwind CSS",
   ],
-  datenbanken: ["SQL", "MySQL", "PostgreSQL", "MongoDB"],
+  datenbanken: ["MySQL", "PostgreSQL", "MongoDB"],
   tools: [
     "IntelliJ IDEA",
     "VS Code",
@@ -20,10 +20,12 @@ const technologies = {
     "Docker",
     "DBeaver",
     "Beekeeper Studio",
+    "Maven",
+    "Trello",
   ],
 };
 
-export default function TechnologiesContent() {
+export default function Technologies() {
   const codeLines = Object.entries(technologies).map(([key, values]) => {
     const formattedValues = values.map((value, id) => (
       <span key={id}>

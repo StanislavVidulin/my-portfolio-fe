@@ -8,7 +8,7 @@ const titles = [
   "TS Front-End Developer",
 ];
 
-export default function HeroContent() {
+export default function Hero() {
   const [text, setText] = useState("");
   const [index, setIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);

@@ -1,12 +1,8 @@
-import React from "react";
 import Navigation from "../components/Navigation/Navigation";
 import Footer from "../components/Footer/Footer";
+import { LayoutProps } from "./types";
 
-interface LayoutProps {
-  children: React.ReactNode;
-}
-
-const Layout: React.FC<LayoutProps> = ({ children }) => {
+export default function Layout({ children }: LayoutProps) {
   return (
     <div className="bg-gray-900 text-white min-h-screen font-sans overflow-x-hidden flex flex-col">
       <Navigation />
@@ -19,5 +15,3 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
     </div>
   );
 };
-
-export default Layout;

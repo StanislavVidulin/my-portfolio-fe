@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa";
 import InfoItem from "src/components/InfoItem/InfoItem";
 
-export default function AboutContent() {
+export default function About() {
   return (
     <section
       id="about"

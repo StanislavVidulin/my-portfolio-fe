@@ -1,18 +1,18 @@
-import Hero from "./pages/Hero";
-import About from "./pages/About";
-import Projects from "./pages/Projects";
-import Contact from "./pages/Contact";
 import Layout from "./layouts/Layout";
-import Technologies from "./pages/Technologies";
+import HeroPage from "./pages/HeroPage";
+import AboutPage from "./pages/AboutPage";
+import TechnologiesPage from "./pages/TechnologiesPage";
+import ProjectsPage from "./pages/ProjectsPage";
+import ContactPage from "./pages/ContactPage";
 
 export default function App() {
   return (
     <Layout>
-      <Hero />
-      <About />
-      <Technologies />
-      <Projects />
-      <Contact />
+      <HeroPage />
+      <AboutPage />
+      <TechnologiesPage />
+      <ProjectsPage />
+      <ContactPage />
     </Layout>
   );
 }
