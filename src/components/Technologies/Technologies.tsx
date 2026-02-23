@@ -1,18 +1,11 @@
 const technologies = {
-  programmiersprachen: ["Java", "JavaScript", "TypeScript"],
-  backend: ["Spring", "Spring Boot", "Node.js", "REST API"],
-  frontend: [
-    "HTML",
-    "CSS",
-    "React",
-    "React Router",
-    "Redux",
-    "Bootstrap",
-    "Tailwind CSS",
-  ],
-  datenbanken: ["MySQL", "PostgreSQL", "MongoDB"],
+  programmiersprachen: ["Java", "JavaScript", "TypeScript", "Python"],
+  backend: ["Spring Boot", "Node.js", "REST API", "JUnit"],
+  frontend: ["HTML", "CSS", "React", "Next.js", "Redux", "Bootstrap", "Tailwind CSS"],
+  datenbanken: ["MySQL", "PostgreSQL", "MongoDB", "Oracle"],
   tools: [
     "IntelliJ IDEA",
+    "PyCharm",
     "VS Code",
     "Git",
     "GitHub",
@@ -22,6 +15,10 @@ const technologies = {
     "Beekeeper Studio",
     "Maven",
     "Trello",
+    "Linux",
+    "Swagger",
+    "Netlify",
+    "Vercel"
   ],
 };
 
